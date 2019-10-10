@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<?php $this->load->view("partial/main/head") ?>
-<body>
+<body class="theme-teal">
 	<?php $this->load->view("partial/main/page_loader") ?>
 	<!-- Overlay For Sidebars -->
     <div class="overlay"></div>

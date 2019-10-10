@@ -1,4 +1,4 @@
-<!-- Jquery Core Js -->
+    <!-- Jquery Core Js -->
     <script src="<?php echo base_url("assets/plugins/jquery/jquery.min.js") ?>"></script>
 
     <!-- Bootstrap Core Js -->
