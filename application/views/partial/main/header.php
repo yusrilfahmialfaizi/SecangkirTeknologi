@@ -8,4 +8,4 @@
     <!-- #END# Overlay For Sidebars -->
 	<?php $this->load->view("partial/main/search_bar") ?>
 	<?php $this->load->view("partial/main/top_bar") ?>
-	<?php $this->load->view("partial/main/sidebar") ?>
+	<?php $this->load->view("partial/main/sidebar/sidebar") ?>
