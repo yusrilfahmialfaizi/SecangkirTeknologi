@@ -27,7 +27,7 @@
                 <ul class="list">
                 <li class="header">MAIN NAVIGATION</li>
                     <li class="active">
-                        <a href="index.html">
+                        <a href="<?php echo base_url("kepsek/dashboard") ?>">
                             <i class="material-icons">home</i>
                             <span>Home</span>
                         </a>
@@ -56,7 +56,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="">Jadwal Pelajaran</a>
+                        <a href=""><i class="material-icons">list</i><span>Jadwal Pelajaran</span></a>
                     </li>
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
