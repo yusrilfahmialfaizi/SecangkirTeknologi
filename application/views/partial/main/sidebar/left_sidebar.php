@@ -25,6 +25,76 @@
             <!-- Menu -->
             <div class="menu">
                 <ul class="list">
+                <li class="header">MAIN NAVIGATION</li>
+                    <li class="active">
+                        <a href="index.html">
+                            <i class="material-icons">home</i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">face</i>
+                            <span>Siswa</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="">Data Siswa</a>
+                            </li>
+                            <li>
+                                <a href="">Absensi Siswa</a>
+                            </li>
+                            <li>
+                                <a href="">Data Orang Tua Siswa</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">record_voice_over</i>
+                            <span>Guru</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="">Data Guru</a>
+                            </li>
+                            <li>
+                                <a href="">Absensi Guru</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">important_devices</i>
+                            <span>Tata Usaha</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="">Data Tata Usaha</a>
+                            </li>
+                            <li>
+                                <a href="">Absensi Tata Usaha</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">payment</i>
+                            <span>Bendahara</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="">Data Bendahara</a>
+                            </li>
+                            <li>
+                                <a href="">Absensi Bendahara</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+                <!-- <ul class="list">
                     <li class="header">MAIN NAVIGATION</li>
                     <li class="active">
                         <a href="index.html">
@@ -361,7 +431,7 @@
                             <span>Information</span>
                         </a>
                     </li>
-                </ul>
+                </ul> -->
             </div>
             <!-- #Menu -->
             <?php $this->load->view("partial/main/foot") ?>
