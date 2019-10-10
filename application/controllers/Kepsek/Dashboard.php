@@ -15,7 +15,7 @@
 		function index()
 		{
 			$this->load->view("partial/main/header");
-			$this->load->view("content/dashboard");
+			$this->load->view("content/kepsek/dashboard");
 			$this->load->view("partial/main/footer");
 		}
 
