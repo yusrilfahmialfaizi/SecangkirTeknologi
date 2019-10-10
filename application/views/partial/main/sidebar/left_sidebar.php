@@ -47,7 +47,16 @@
                             <li>
                                 <a href="">Data Orang Tua Siswa</a>
                             </li>
+                            <li>
+                                <a href="">Pencapaian</a>
+                            </li>
+                            <li>
+                                <a href="">Data Tumbuh Kembang</a>
+                            </li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="">Jadwal Pelajaran</a>
                     </li>
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
@@ -80,14 +89,34 @@
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">payment</i>
-                            <span>Bendahara</span>
+                            <span>Keuangan</span>
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="">Data Bendahara</a>
+                                <a href="">SPP</a>
                             </li>
                             <li>
-                                <a href="">Absensi Bendahara</a>
+                                <a href="">HR / Gaji Karyawan </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <span>KAS Sekolah</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <span>Pendapatan</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>Pengeluaran </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">Tabungan Siswa</a>
                             </li>
                         </ul>
                     </li>
