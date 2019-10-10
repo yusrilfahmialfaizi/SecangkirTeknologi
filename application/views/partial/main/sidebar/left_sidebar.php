@@ -39,19 +39,19 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="">Data Siswa</a>
+                                <a href="<?php echo base_url("kepsek/data_siswa") ?>">Data Siswa</a>
                             </li>
                             <li>
-                                <a href="">Absensi Siswa</a>
+                                <a href="<?php echo base_url("kepsek/absensi_siswa") ?>">Absensi Siswa</a>
                             </li>
                             <li>
-                                <a href="">Data Orang Tua Siswa</a>
+                                <a href="<?php echo base_url("kepsek/data_orangtua_siswa") ?>">Data Orang Tua Siswa</a>
                             </li>
                             <li>
-                                <a href="">Pencapaian</a>
+                                <a href="#">Pencapaian</a>
                             </li>
                             <li>
-                                <a href="">Data Tumbuh Kembang</a>
+                                <a href="#">Data Tumbuh Kembang</a>
                             </li>
                         </ul>
                     </li>
@@ -65,10 +65,10 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="">Data Guru</a>
+                                <a href="<?php echo base_url("kepsek/data_guru") ?>">Data Guru</a>
                             </li>
                             <li>
-                                <a href="">Absensi Guru</a>
+                                <a href="<?php echo base_url("kepsek/absensi_guru") ?>">Absensi Guru</a>
                             </li>
                         </ul>
                     </li>
@@ -120,7 +120,23 @@
                             </li>
                         </ul>
                     </li>
-
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">collections_bookmark</i>
+                            <span>Inventaris</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="">Inventaris Perpustakaan Guru</a>
+                            </li>
+                            <li>
+                                <a href="">Inventaris Perpustakaan Anak</a>
+                            </li>
+                            <li>
+                                <a href="">Inventaris Benda </a>
+                            </li>
+                        </ul>
+                    </li>
 
                 </ul>
                 <!-- <ul class="list">
